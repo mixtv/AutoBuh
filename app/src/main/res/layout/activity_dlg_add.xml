@@ -7,6 +7,19 @@
     android:orientation="vertical">
 
     <TextView
+        android:text="Категория:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rec_category_text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/rec_category" />
+
+    <TextView
         android:text="Дата расхода\\прихода:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
